@@ -1,0 +1,33 @@
+.text-decoration {
+    text-decoration: none;
+  }
+  
+  .center {margin:0 auto;}
+
+  .btn-outline {
+    color: #0099CC;
+    background-color: transparent;
+    border-color: #0099CC;
+  }
+  
+  .btn-outline:hover {
+    background-color: #0099CC;
+    color: white;
+  }
+  
+  .btn-outline.btn1 {
+    background-color: white;
+    color: black;
+    border-color: #008CBA;
+  }
+  
+  .btn-outline.btn1:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+.profile_img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20%;
+  }
