@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portafolio Ruby on Rails</title>
+  <style>
+    .banner {
+      background-image: url("/assets/fondo.png");
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+
+    .banner h1 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: black
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <h1>Bienvenid@ a los Proyectos realizados en Ruby on Rails</h1>
+    <button type="button" class="btn btn-outline-dark"><%= link_to 'Ver proyectos', '/projects', class: 'nav-link' %></button>
+  </div>
+</body>
+</html>
