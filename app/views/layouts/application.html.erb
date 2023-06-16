@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DesafioEvaluado</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'main', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'noscript', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="is-preload-0 is-preload-1 is-preload-2">
+    <%= yield %>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="copyright">
+        <li>&copy; Untitled.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
+      </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <%= javascript_include_tag 'jquery.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'browser.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'breakpoints.min', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'main.min', 'data-turbolinks-track': 'reload' %>
+  </body>
+</html>
